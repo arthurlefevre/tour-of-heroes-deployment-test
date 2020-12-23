@@ -39,6 +39,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build and deploy
         run: |
+          npm install
+          npm update
           npm i -g @angular/cli
+          ng update
           ng build
           ng deploy
