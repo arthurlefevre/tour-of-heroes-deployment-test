@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tour-of-heroes-deployment-test"
+  },
+  "targets": {
+    "tour-of-heroes-deployment-test": {
+      "hosting": {
+        "heroes-tour": [
+          "tour-of-heroes-deployment-test"
+        ]
+      }
+    }
+  }
+}
